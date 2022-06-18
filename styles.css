@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .title {
 	color: #5C6AC4;
 }
@@ -10,6 +14,8 @@
 }
 section{
   padding: 100px 0;
+  display: flex;
+  justify-content: center;
 }
 .gallery{
   display: flex;
@@ -35,7 +41,7 @@ section{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .serv_content .card{
   width: calc(33% - 20px);
@@ -52,7 +58,7 @@ section{
 .serv_content .card .text{
   font-size: 25px;
   font-weight: 500;
-  color: white;
+  color: whitesmoke;
   margin: 10px 0 7px 0;
 }
 
